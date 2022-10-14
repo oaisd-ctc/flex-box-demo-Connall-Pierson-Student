@@ -176,17 +176,17 @@ hr {
 
 
 
+.special {
+    flex-grow: 1;
+}
 
-
-
-
-
-
-
-
-
-
-
+.special:hover {
+    flex-grow: 2;
+    background-color: red;
+    color: brown;
+    transition: .5s;
+    border-color: white;
+}
 
 
 
